@@ -41,14 +41,16 @@ dependencies:
   bloc: ^8.1.4
   permission_handler: ^11.3.1
   path: ^1.9.0
-  extractor: ^0.0.3
   dio: ^5.4.3+1
   #direct_link: ^0.2.2
-dependency_overrides:
   direct_link: 
     git:
      url: https://github.com/thitlwincoder/direct_link.git
      ref: master
+dependency_overrides:
+  extractor: ^0.0.3
+  flutter_inappwebview: ^6.0.0
+
 
 dev_dependencies:
   flutter_test:
